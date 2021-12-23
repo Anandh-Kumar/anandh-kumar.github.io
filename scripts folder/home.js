@@ -59,6 +59,7 @@ myButton.onclick = function () {
     document.getElementById("sub").innerHTML = "Python Foundation"
     document.getElementById("other").innerHTML = "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.  <a href='https://www.python.org/psf/' id='link' target='_blank'> >>> Learn more</a>"
     
+    
     let link = document.getElementById("link");
     link.href = "https://www.python.org/psf/";
     let image = document.getElementById("image");
