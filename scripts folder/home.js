@@ -26,6 +26,7 @@ myButton.onclick = function () {
   if (toggler === "Python") {
     toggler = "C";
 
+    document.title = "C is cute !"
     document.getElementById("head").innerHTML = "C is cute !";
     document.getElementById("intro").innerHTML =
       "C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.";
@@ -46,6 +47,7 @@ myButton.onclick = function () {
   } else {
     toggler = "Python"
 
+    document.title = "Python is cool !"
     document.getElementById("head").innerHTML = "Python is cool !";
     document.getElementById("intro").innerHTML = "Python is a programming language that lets you work quickly and integrate systems more effectively."
     document.getElementById("features").innerHTML = "Python is"
