@@ -4,16 +4,16 @@ let toggler = "Python";
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
   if (toggler === "Python") {
-    if (mySrc === "images folder/python.png") {
-      myImage.setAttribute("src", "images folder/python2.jpg");
+    if (mySrc === "images/python.png") {
+      myImage.setAttribute("src", "images/python2.jpg");
     } else {
-      myImage.setAttribute("src", "images folder/python.png");
+      myImage.setAttribute("src", "images/python.png");
     }
   } else {
-    if (mySrc === "images folder/c2.jpg") {
-      myImage.setAttribute("src", "images folder/c.png");
+    if (mySrc === "images/c2.jpg") {
+      myImage.setAttribute("src", "images/c.png");
     } else {
-      myImage.setAttribute("src", "images folder/c2.jpg");
+      myImage.setAttribute("src", "images/c2.jpg");
     }
   }
 };
@@ -43,7 +43,7 @@ myButton.onclick = function () {
     let link = document.getElementById("link");
     link.href = "https://en.wikipedia.org/wiki/The_C_Programming_Language";
     let image = document.getElementById("image");
-    image.src = "images folder/c.png";
+    image.src = "images/c.png";
   } else {
     toggler = "Python"
 
@@ -63,6 +63,6 @@ myButton.onclick = function () {
     let link = document.getElementById("link");
     link.href = "https://www.python.org/psf/";
     let image = document.getElementById("image");
-    image.src = "images folder/python.png";
+    image.src = "images/python.png";
   }
 };
